@@ -12,12 +12,8 @@ public class Spawn : MonoBehaviour
     void Start()
     {
         for (int i = 0; i < spawnPoint.Length; i++)
-            Instantiate(prefab, spawnPoint[i].transform );
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        {
+            Instantiate(prefab, spawnPoint[i].transform);
+        }
     }
 }
