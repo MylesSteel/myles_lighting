@@ -29,8 +29,5 @@ public class colorChanger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //  objRenderer = GetComponent<Renderer>();
-        // int random = Random.Range(0, randomColor.Length);
-        // newColor = randomColor[random];
     }
 }
