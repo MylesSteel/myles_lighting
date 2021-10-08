@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1708002377249220373}
   - component: {fileID: 6952497433390083822}
   - component: {fileID: 6655445560716852776}
+  - component: {fileID: 8681713446130274399}
   m_Layer: 0
   m_Name: inputSphere
   m_TagString: Untagged
@@ -95,3 +96,22 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8681713446130274399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4047269173029148831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b1c6435b68d773429a2bfc1ee8231aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recipeColor:
+  - {r: 0.9339623, g: 0.81525207, b: 0, a: 0}
+  - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 0.18396229, g: 1, b: 0.2531794, a: 0}
+  - {r: 0.9268639, g: 0.07075471, b: 1, a: 0}
+  - {r: 0, g: 0.9587312, b: 1, a: 0}
+  - {r: 0.27235284, g: 0, b: 0.754717, a: 0}
