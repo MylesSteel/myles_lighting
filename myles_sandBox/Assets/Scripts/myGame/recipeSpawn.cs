@@ -5,15 +5,19 @@ using UnityEngine;
 public class recipeSpawn : MonoBehaviour
 {
     [SerializeField]
-    GameObject[] spawnPoint;
+    GameObject[] spawnPointRecipe;
     [SerializeField]
     GameObject prefab;
+    [SerializeField]
+    Material[] mats;
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < spawnPoint.Length; i++)
+        for (int i = 0; i < spawnPointRecipe.Length; i++)
         {
-            Instantiate(prefab, spawnPoint[i].transform);
+            GameObject item = Instantiate(prefab, spawnPointRecipe[i].transform);
+            int randNum = Random.Range(0, spawnPointRecipe.Length);
+            item.GetComponent<Renderer>().material = mats[randNum];
         }
     }
 }
