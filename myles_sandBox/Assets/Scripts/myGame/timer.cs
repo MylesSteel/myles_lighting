@@ -6,7 +6,7 @@ using UnityEngine.UI; //added to use UI options and put text canvas on screen.
 public class timer : MonoBehaviour
 {
     public GameObject textDisplay; 
-    public int timeValue = 60;
+    public int timeValue = 60; 
     public bool takingAway1 = false; 
     // Update is called once per frame
 
@@ -25,7 +25,7 @@ public class timer : MonoBehaviour
             takingAway1 = true;
             yield return new WaitForSeconds(1); //like deltatime. this worked so i didnt mess with it. 
             timeValue -= 1;
-            textDisplay.GetComponent<Text>().text = "" + timeValue; //displays timeValue reduction as it updates. 
+            textDisplay.GetComponent<Text>().text = "" + timeValue; //displays timeValue reduction as it updates. Also displays in seconds instead of 00:00. this is why the string is empty. 
             takingAway1 = false; 
         }
 

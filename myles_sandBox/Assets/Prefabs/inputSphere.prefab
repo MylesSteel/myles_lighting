@@ -105,13 +105,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4047269173029148831}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b1c6435b68d773429a2bfc1ee8231aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 86bbda8940e5cea49b218cdbbaf8dc59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  recipeColor:
-  - {r: 0.9339623, g: 0.81525207, b: 0, a: 0}
-  - {r: 1, g: 0, b: 0, a: 0}
-  - {r: 0.18396229, g: 1, b: 0.2531794, a: 0}
-  - {r: 0.9268639, g: 0.07075471, b: 1, a: 0}
-  - {r: 0, g: 0.9587312, b: 1, a: 0}
-  - {r: 0.27235284, g: 0, b: 0.754717, a: 0}
+  gl: {fileID: 0}
