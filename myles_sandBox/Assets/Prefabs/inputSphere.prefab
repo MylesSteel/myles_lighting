@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6952497433390083822}
   - component: {fileID: 6655445560716852776}
   - component: {fileID: 8681713446130274399}
+  - component: {fileID: 3322870207582911805}
   m_Layer: 0
   m_Name: inputSphere
   m_TagString: Untagged
@@ -109,3 +110,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gl: {fileID: 357713143887706250, guid: ec70fce99df4af142bb17f66710eb506, type: 3}
+--- !u!114 &3322870207582911805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4047269173029148831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c078f74091c50ad4d83291fbba7c0f06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rS: {fileID: 0}
+  userGuess:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  guessCount: 3

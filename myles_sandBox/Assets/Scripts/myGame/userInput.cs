@@ -16,7 +16,6 @@ public class userInput : MonoBehaviour
     {
         gl.userGuess[gl.guessCount] = gameObject;
         gl.guessCount++;  
-        gl.guessCount++;  
         gl.answerCheck();
         
     }

@@ -10,7 +10,7 @@ public class recipeSpawn : MonoBehaviour
     GameObject prefab;
     [SerializeField]
     Material[] mats;
-    public GameObject[] correctAnswer; //elements must be populated in Engine 
+    public GameObject[] correctAnswer; //elements amount must be populated in Engine 
    
 
     // Start is called before the first frame update

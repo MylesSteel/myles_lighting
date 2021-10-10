@@ -12,7 +12,7 @@ public class timer : MonoBehaviour
 
     private void Start()
     {
-        textDisplay.GetComponent<Text>().text = "" + timeValue; //dispalays timeValue as string at start 
+        textDisplay.GetComponent<Text>().text = "time:" + timeValue; //dispalays timeValue as string at start 
     }
     void Update()
     {
@@ -23,9 +23,9 @@ public class timer : MonoBehaviour
         IEnumerator timerDown() 
         {
             takingAway1 = true;
-            yield return new WaitForSeconds(1); //like deltatime. this worked so i didnt mess with it. 
+            yield return new WaitForSeconds(1); //like deltatime. 
             timeValue -= 1;
-            textDisplay.GetComponent<Text>().text = "" + timeValue; //displays timeValue reduction as it updates. Also displays in seconds instead of 00:00. this is why the string is empty. 
+            textDisplay.GetComponent<Text>().text = "time:" + timeValue; //displays timeValue reduction as it updates. Also displays in seconds instead of 00:00. this is why the string is empty. 
             takingAway1 = false; 
         }
 
