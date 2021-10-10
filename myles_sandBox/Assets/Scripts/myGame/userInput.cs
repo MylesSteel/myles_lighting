@@ -10,12 +10,13 @@ public class userInput : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gl = GameObject.Find("userGuess").GetComponent<guessLogic>(); //finds game logic script userguess array 
+        gl = GameObject.Find("spawn").GetComponent<guessLogic>(); //finds game logic script userguess array 
     }
     public void OnMouseDown() // checks user guess on each inpput 
     {
         gl.userGuess[gl.guessCount] = gameObject;
-        gl.guessCount++;
+        gl.guessCount++;  
+        gl.guessCount++;  
         gl.answerCheck();
         
     }
