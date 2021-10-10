@@ -19,6 +19,7 @@ public class Spawn : MonoBehaviour
         {
             GameObject item = Instantiate(prefab, spawnPoint[i].transform);
             item.GetComponent<Renderer>().material = mats[i];
+            
 
 
         }

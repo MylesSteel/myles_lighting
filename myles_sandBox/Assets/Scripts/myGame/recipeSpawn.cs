@@ -10,6 +10,9 @@ public class recipeSpawn : MonoBehaviour
     GameObject prefab;
     [SerializeField]
     Material[] mats;
+    public GameObject[] correctAnswer; //elements must be populated in Engine 
+   
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +21,7 @@ public class recipeSpawn : MonoBehaviour
             GameObject item = Instantiate(prefab, spawnPointRecipe[i].transform);
             int randNum = Random.Range(0, spawnPointRecipe.Length);
             item.GetComponent<Renderer>().material = mats[randNum];
+            correctAnswer[i] = prefab; 
         }
     }
 }
