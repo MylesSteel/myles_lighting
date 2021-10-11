@@ -19,11 +19,11 @@ public class guessLogic : MonoBehaviour
             {
                 if (userGuess[i] == rS.correctAnswer[i])
                 {
-                    
+                    Debug.Log ("you guessed right!");
                 }
                 else
                 {
-
+                    Debug.Log ("thats not it!");
                 }
 
             }
