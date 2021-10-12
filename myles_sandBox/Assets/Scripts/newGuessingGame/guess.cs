@@ -5,8 +5,8 @@ using UnityEngine;
 public class Guess : MonoBehaviour
 {
 
-    [SerializeField]
-    Recipe rS;                      //refrence to recipe script
+    
+    public Recipe rS;                      //refrence to recipe script
     public GameObject[] guesses;        //public gameobject array to be populated by on mouse down.
     public int guessCount = 0;        //public int used to track amount of guesses on each click. 
 
