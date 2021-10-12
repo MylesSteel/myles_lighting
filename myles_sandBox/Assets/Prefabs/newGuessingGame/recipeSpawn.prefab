@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1753148896994087599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1753148896994087593}
+  - component: {fileID: 1753148896994087592}
+  m_Layer: 0
+  m_Name: recipeSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1753148896994087593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753148896994087599}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1753148896994087592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753148896994087599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbf0d225773d0d14d83e8c2fc0f58133, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ingredients:
+  - {fileID: 551007610214119080, guid: bec2902dcd7e6474692fd64566608f86, type: 3}
+  - {fileID: 5690346649303050282, guid: 11f811bedbc3ba441a082487b17394be, type: 3}
+  - {fileID: 7435545876875328601, guid: b1c315c25c41cbf47b43b65948f2baa1, type: 3}
+  - {fileID: 4023893063654490790, guid: 7ccb51443c3f1e84d9714c21adb8d391, type: 3}
+  - {fileID: 1180026530758249955, guid: 305fc5f95ba9c1b449d15a75ce6f999c, type: 3}
+  - {fileID: 5768260489950577868, guid: 04ab1e4bc61fd1f4d91d7ed0b726174d, type: 3}
+  spawnPoint:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  correctAnswer:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
