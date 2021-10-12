@@ -24,6 +24,7 @@ public class Guess : MonoBehaviour
                 else
                 {
                     Debug.Log("Incorrect.");
+                    guessCount = 0;
                 }
             }
         }
