@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class click : MonoBehaviour
+public class Click : MonoBehaviour
 {
     [SerializeField]
-    guess gs;           //refrence to guess script to grab public varriables guesses array and guesscount int. 
+    Guess gs;           //refrence to guess script to grab public varriables guesses array and guesscount int. 
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         Debug.Log("clicked");
         gs.guesses[gs.guessCount] = gameObject; //each click on game object is stored in guesses array 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; //added to use UI options and put text canvas on screen.
 
-public class timer : MonoBehaviour
+public class Timer : MonoBehaviour
 {
     public GameObject textDisplay; 
     public int timeValue = 60; 

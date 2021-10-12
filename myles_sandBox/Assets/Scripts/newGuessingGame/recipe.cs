@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class recipe : MonoBehaviour
+public class Recipe : MonoBehaviour
 {
     [SerializeField]
     GameObject[] ingredients;  //array from ingredints
@@ -16,7 +16,7 @@ public class recipe : MonoBehaviour
     {
         for (int i = 0; i < spawnPoint.Length; i++) //populate array
         {
-            int randNum = Random.Range(0, spawnPoint.Length); //selects random object from ingredients array
+            int randNum = Random.Range(0, ingredients.Length); //selects random object from ingredients array
             GameObject item = Instantiate(ingredients[randNum], spawnPoint[i].transform); //spawns ingredient at random from ingredients array at spawn point.
             correctAnswer[i] = item;
 
