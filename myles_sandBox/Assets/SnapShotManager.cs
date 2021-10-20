@@ -19,7 +19,7 @@ public class SnapShotManager : MonoBehaviour
         
     }
 
-    private void OnPlayAudio()                      //play populated audio source
+    void OnPlayAudio()                      //play populated audio source
     {
         night.TransitionTo(transitionTime);           //transition operator 
         day.TransitionTo(transitionTime);

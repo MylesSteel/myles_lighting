@@ -847,8 +847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4266203483319909579}
   - component: {fileID: 4266203483319909572}
-  - component: {fileID: -7362128439977458088}
-  - component: {fileID: 9148284269916172344}
+  - component: {fileID: 1750228195093850517}
   m_Layer: 0
   m_Name: LeftHand
   m_TagString: Untagged
@@ -894,7 +893,7 @@ MonoBehaviour:
   onTeleportCancel:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &-7362128439977458088
+--- !u!114 &1750228195093850517
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -903,27 +902,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4266203483319909578}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c43be0d1f731ad468310c9d2f2d38ce, type: 3}
+  m_Script: {fileID: 11500000, guid: f8fd999c9c562024e805d78982677523, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllerActionGrip: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  controllerActionTrigger: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!95 &9148284269916172344
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4266203483319909578}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 25d9d5b8b2931de4aa0d306f7c4b1b42, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  intensity: 0.75
+  duration: 0.5
+  volume: {fileID: 0}
+  continousMove: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
