@@ -16,6 +16,7 @@ public class BulletFire : MonoBehaviour                              //applied t
     {
         rB = GetComponent<Rigidbody>();                                                 
         rB.AddForce(Vector3.forward * (speed), ForceMode.Impulse);            //applies forward force 
+        //rB.AddForce(Vector3.up, ForceMode.Impulse);
      
     }
 
