@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!244 &-7213037260805190449
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 288c3baa3a6c19f48ad7d80761b01cf7
+  m_EffectName: Attenuation
+  m_MixLevel: 8e574a5e5dc68f44aa461c584a6cc90c
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &-5029552334417145356
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 475904980a0545a48830382002751939
+  m_EffectName: Attenuation
+  m_MixLevel: bcb9d54cebdf20a478f839df272cfeb6
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!243 &-4895650907167749721
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Night
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 5e6884df2ed6d2943a6d8dfa838c28e0
+  m_Children:
+  - {fileID: 7409057639129996984}
+  m_Volume: e09b96ebf3eb0f248a6d8fa3e8d939fd
+  m_Pitch: d0e59a100a293684b81362edd8e6b355
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -7213037260805190449}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &-1107229070881047134
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: cd18c327566788b439a22f8754ba68a2
+  m_EffectName: Attenuation
+  m_MixLevel: 9cd41f50945da574e8a354ba8242b015
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: City Ambience
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  - {fileID: 4537233968217059394}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - cc1e6db11a4c7244e9bfb230b763e94c
+    - db9ffdf82f86caf4db2b914bac6db824
+    - cf0be23bde528d843b1efad62f249e61
+    - 5e6884df2ed6d2943a6d8dfa838c28e0
+    - 42a4cc381734fc243a033252f4e65a9d
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: cc1e6db11a4c7244e9bfb230b763e94c
+  m_Children:
+  - {fileID: 6010551610777444939}
+  - {fileID: 4217531779822225420}
+  - {fileID: -4895650907167749721}
+  m_Volume: 2b108a90555676847807a9306483f23c
+  m_Pitch: c07d6f49c562a6042a7fe1bf829a7386
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 1a45e549d148b5b479bdbbe4d656e967
+  m_EffectName: Attenuation
+  m_MixLevel: c543d87732fbe6543a8faf0dd8a645e3
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Day
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 3ea3a013cfe78b24e96f19a6847f9c78
+  m_FloatValues:
+    2b108a90555676847807a9306483f23c: -0.08374829
+    ce924b46a3c989944ac60f27152578c9: 0.8772599
+    e09b96ebf3eb0f248a6d8fa3e8d939fd: -80
+    bc249cac4ea9cfc4598ff8bca63aac31: -2.5738313
+    cb84eabd8ef9bb940b5e49db7495b2c7: -80
+  m_TransitionOverrides: {}
+--- !u!244 &2191226725310305479
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 73d454209ca15e44d89e6c11ab81cc75
+  m_EffectName: Attenuation
+  m_MixLevel: 2d2e55f4526671042adbb98083a42e81
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!243 &4217531779822225420
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: traffic
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: cf0be23bde528d843b1efad62f249e61
+  m_Children: []
+  m_Volume: ce924b46a3c989944ac60f27152578c9
+  m_Pitch: 2aa9303be55212e4c9666108bc759d39
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -5029552334417145356}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!245 &4537233968217059394
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: night
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 4f6065834cd4b0f45ada743546949d9a
+  m_FloatValues:
+    2b108a90555676847807a9306483f23c: 15.10171
+    ce924b46a3c989944ac60f27152578c9: -70.347206
+    e09b96ebf3eb0f248a6d8fa3e8d939fd: 20
+    bc249cac4ea9cfc4598ff8bca63aac31: -76.136444
+    cb84eabd8ef9bb940b5e49db7495b2c7: -37.260555
+  m_TransitionOverrides: {}
+--- !u!243 &6010551610777444939
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: birds
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: db9ffdf82f86caf4db2b914bac6db824
+  m_Children: []
+  m_Volume: bc249cac4ea9cfc4598ff8bca63aac31
+  m_Pitch: 9018ff08fab9aba4d93c8b6726c3166e
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -1107229070881047134}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &7409057639129996984
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: night traffic
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 42a4cc381734fc243a033252f4e65a9d
+  m_Children: []
+  m_Volume: cb84eabd8ef9bb940b5e49db7495b2c7
+  m_Pitch: 1929996220c290749b5a87a7badd10d7
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 2191226725310305479}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
