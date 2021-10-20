@@ -5365,6 +5365,24 @@ Transform:
   m_Father: {fileID: 12940793}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &626595082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1434502207740970905, guid: ef10e9255f7dc1644afdce4457b38eb0, type: 3}
+  m_PrefabInstance: {fileID: 1434502206344512007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &626595085
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626595082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &629716148
 GameObject:
   m_ObjectHideFlags: 0
@@ -6498,7 +6516,19 @@ MonoBehaviour:
         m_CallState: 2
   onRealeased:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1515330230
 GameObject:
   m_ObjectHideFlags: 0
@@ -6743,6 +6773,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8662287512253162790, guid: fc4add5ac2436f84fb44b4131dc1e07c, type: 3}
   m_PrefabInstance: {fileID: 8662287510495016124}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1871181368 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4266203481911556597, guid: 609049151b145004e9af5b0e43b58194, type: 3}
+  m_PrefabInstance: {fileID: 4266203483132781260}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &1871181371
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871181368}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1871181372
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871181368}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1907023794 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1434502208229416373, guid: ef10e9255f7dc1644afdce4457b38eb0, type: 3}
